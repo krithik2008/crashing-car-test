@@ -5,7 +5,7 @@ var speed,weight;
 function setup() {
 createCanvas(800,800);
 wall=createSprite(800,150,60,height/2);
-wall.shapeColor="orange";
+wall.shapeColor="grey";
 
 speed=random(55,90);
 weight=random(400,1500);
